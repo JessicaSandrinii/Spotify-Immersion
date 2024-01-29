@@ -1,0 +1,16 @@
+@media screen and (max-width: 970px) {
+  .offer__list-item {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media screen and (max-width: 470px) {
+  .offer__list-item {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .offer__list-item {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
